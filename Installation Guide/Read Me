@@ -1,0 +1,28 @@
+***********************Linux Installation Guide**************************
+Following software and packages need to be installed on Linux-ubuntu
+before you run the grass script
+
+1. Grass
+2. Python 
+  2.1 numpy
+  2.2 scipy
+  2.3 pylab
+  2.4 rpy
+  2.5 yaml
+
+
+RunMe.sh contain executable shell script code which will automatically 
+install the given packages and softwares for you.
+
+To run the RunMe.sh file 
+  --> select the file -> press enter--> click on Execute
+  OR
+  --> open the terminal to the directory in which RunMe.sh file is placed
+     using cd (change directory) command
+     type "sh RunMe.sh" and press enter
+
+*****************After Installation********************
+1. Specify the parameters for landscape simulation in parameters.yaml file
+   in source code directory.
+2. Now to run the simulation code, go to source code directory using cd command in terminal
+   and type "python main.py" (without quotes) and press enter. 
